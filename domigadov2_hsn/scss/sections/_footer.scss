@@ -1,0 +1,149 @@
+/**
+ * Table of Content
+ * ==============================================
+ * 01. Site Footer
+ * 02. Footer Widget
+ * 03. Copyright
+ * 04. Social Icon
+ */
+
+ .footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 391px;
+    background-color: #0c0c0c;
+    text-align: -webkit-center;
+ }
+
+ .footer-container {
+    width: 1200px;
+    height: 335px;
+ }
+
+ .footer-content-top {
+    display: block;
+    width: 100%;
+    height: 127px;
+    border-bottom: 1px solid #d4d4d4;
+ }
+
+ .footer-logo {
+    display: inline-block;
+    width: 166px;
+    height: 65px;
+    margin: 28px 12px 12px 0px;
+    float: left;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+ }
+
+ .footer-content-center {
+    display: inline-block;
+    width: 55%;
+    height: 100%;
+    text-align: start;
+
+    span {
+        color: white;
+        display: block;
+        margin: 47px 0px 0px 0px;
+        font-size: smaller;
+    }
+ }
+
+ .footer-content-end {
+    display: inline-block;
+    float: right;
+    width: 25%;
+    text-align: end;
+    height: 100%;
+
+    img {
+        margin: 47px 0px 0px 18px;
+    }
+ }
+
+ .footer-list-center {
+    display: block;
+    width: 100%;
+    height: 171px;
+    margin: 17px 0px 17px 0px;   
+ }
+
+ .item-footer-list {
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 13%;
+
+    ul {
+        text-align: start;
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: smaller;
+        color: white;
+    }
+
+    li {
+        display: block;
+        padding: 6px 0px 6px;
+    }
+ }
+
+ .item-footer-list:not(:last-child) {
+     margin: 0px 11px 0px 0px;
+ }
+
+ .footer-last-bottom {
+    display: block;
+    width: 100%;
+    height: 54px;
+    background-color: #c3c0c0;
+ }
+
+ .footer-last-bottom-container {
+    display: block;
+    width: 1200px;
+    height: 100%;
+ }
+
+ .footer-last-bottom-star {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin-right: 4px;
+    text-align: start;
+
+    ul {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    li {
+        display: inline-block;
+        margin: 18px 11px 0px 0px;
+        font-size: smaller;
+        font-weight: 400;
+    }
+ }
+
+ .footer-last-bottom-end {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    vertical-align: top;
+    text-align: end;
+
+    span {
+        font-size: smaller;
+        font-weight: 400;
+        margin: 19px 0px 0px 0px;
+        display: block;
+    }
+ }

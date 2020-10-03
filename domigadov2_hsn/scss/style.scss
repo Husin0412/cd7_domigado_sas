@@ -1,0 +1,51 @@
+/*!
+ * foor
+ * STOP - Style.css is compiled from Sass files in /assets, don't edit this file directly!
+ *
+ */
+
+// BOURBON
+// @import "../../node_modules/bourbon/app/assets/stylesheets/bourbon"; //don't touch
+
+// NEAT (If not using neat, comment these out and put grid-settings in /base/grid-settings)
+// @import "grid-settings"; // EDIT THESE!
+// @import "../../node_modules/bourbon-neat/app/assets/stylesheets/neat"; // don't touch
+
+// Reset/Normalize
+// @import "reset";
+
+// Base simple default and simple elements based on BITTERS
+// @import "base/base";
+
+// Components styled collections of base elements (forms, navigation, widgets, etc..)
+// @import "components/components";
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../assets/font/Montserrat-Regular.ttf');
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+// Sections partials made up of components (header, footer, sidebar, etc)
+@import "sections/sections";
+
+// Pages - Template/View specific (home, page, single, custom-template, etc..)
+// @import "pages/pages";
+
+// svg sprite
+// @import "svg-css-sprite";
+
+// svg simbol sprite
+// @import "svg-symbol-sprite";
+
+// responsive
+@import "responsive";
+
+// responsive
+// @import "responsive-store";
+
+// Quick fix sass file to be used temporarily and moved onto its proper location when time permits
+// @import "shame";

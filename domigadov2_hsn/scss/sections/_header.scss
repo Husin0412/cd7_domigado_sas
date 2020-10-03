@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    // border: 1px solid red;
+  }
+  
+  .header {
+      position: relative;
+      display: block;
+      width: 100%;
+    //   height: 98px;
+      text-align: center;
+  }
+  
+  .header-container {
+      display: inline-block;
+      width: 1200px;
+      height: 100%;
+  }
+  
+  .header-left {
+    display: block;
+    width: 168px;
+    height: 79px;
+    float: left;
+    margin: 9px 0px 0px;
+  }
+  
+  .header-left img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header-right {
+    display: block;
+    float: right;
+    height: 94px;
+    width: 490px;
+    text-align: end;
+    .input-group {
+        display: inline-block;
+        position: relative;
+        width: 65%;
+        height: 49px;
+        margin: 21px 18px 0px 0px;
+
+        input {
+            display: inline-block;
+            height: 100%;
+            width: 78%;
+            border-radius: 32px;
+            outline: none;
+            border: 1px solid #b9b8b8;
+            color: #b9b8b8;
+            padding: 0px 48px 0px 20px;
+        }
+
+        input::placeholder {
+            color: #b9b8b8;
+            font-style: italic;
+        }
+
+        img {
+            position: absolute;
+            right: 23px;
+            top: 13px;
+            width: 22px;
+        }
+        img:hover {
+            border: 1px solid #b9b8b8;
+            padding: 3px;
+            right: 20px;
+            top: 10px;
+            border-radius: 22px;
+        }
+    }
+
+    .profile {
+        display: inline-block;
+        width: 68px;
+        height: 50px;
+        vertical-align: top;
+        margin: 20px 0px 0px 0px;
+
+        .icon-profile {
+            width: 49px;
+        }
+        .shape {
+            vertical-align: top;
+            margin: 21px 0px 0px 4px;
+        }
+    }
+
+  }
+  
+  .header-bottom {
+    display: block;
+      width: 100%;
+      height: 59px;
+      background-color: #f14d2d;
+  }
+  
+  .header-bottom-container {
+    display: inline-block;
+    width: 1200px;
+    height: 100%;
+  }
+  
+  .header-bottom-container ul {
+      display: inline-block;
+      list-style: none;
+      width: 100%;
+  }
+  
+  .header-bottom-container ul li {
+    display: inline-block;
+    height: 33px;
+    padding-top: 22px;
+  }
+  
+  .header-bottom-container ul li:not(:last-child) {
+    padding-right: 60px;
+  }
+  
+  .header-bottom-container ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .navbar-response {
+    display: none;
+  }
